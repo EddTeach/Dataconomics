@@ -1,0 +1,18 @@
+def CapitalizacionCompuesta(capital,interes,tiempo,ahorro):
+  """"
+  ------------------x INPUTS x------------------
+  Capital=Capital inicial.            Type=float.
+  Interés=Interés anual (%).          Type=float.
+  Años= Número de años de inversión.  Type=float.
+  Ahorro=Capital a invertir anual     Type=float.
+  -----------------x OUTPUTS x------------------
+  Cf=Capital final.                   Type=float.
+  
+  """
+  capital=capital
+  for i in range(0,tiempo):
+      Cf=round(capital*(1+interes/100)**tiempo,2)
+      i+=1
+      capital+=ahorro
+  
+  return Cf

@@ -1,5 +1,7 @@
 def CapitalizacionCompuesta(capital,interes,tiempo,ahorro):
   """"
+  Cálculo de rendimiento de un capital inicial "capital" realizando un ingreso mensual al fondo de "ahorro", a un interés
+  aproximado anual "interes" durante cierto "tiempo".
   ------------------x INPUTS x------------------
   Capital=Capital inicial.            Type=float.
   Interés=Interés anual (%).          Type=float.
